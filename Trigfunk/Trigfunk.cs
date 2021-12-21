@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IntegratingTest.Trigfunk
 {
-    class Trigfunk
+    public class Trigfunk
     {
         //Функция Факториала\\
         public static double Factorial(int num)

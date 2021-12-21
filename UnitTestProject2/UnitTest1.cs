@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using IntegratingTest;
 
 namespace UnitTestProject2
 {
@@ -10,7 +11,7 @@ namespace UnitTestProject2
         public void TestMethodLn() //Натуральный логарифм
         {
             int x = 0;
-            Assert.AreEqual(Math.Round(Math.Log(1 - x), 4), Math.Round(IntegratingTest.Trigfunk.Trigfunk.Ln(x), 4));
+            Assert.AreEqual(Math.Round(Math.Log(1 - x), 0), Math.Round(IntegratingTest.Trigfunk.Trigfunk.Ln(x), 0));
         }
     }
 }
